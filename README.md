@@ -89,8 +89,7 @@ curl -I http://example.com
 ---
 
 ## 🛠 Extra: Red Hawk — Quick web reconnaissance
-Red Hawk is a simple all-in-one web reconnaissance tool that gathers site info (IP, headers, CMS detection, robots.txt, subdomains, etc.). It gives a fast overview and is great for teaching/demo.
-
+Red Hawk is a simple all-in-one web reconnaissance tool that gathers site info (IP, headers, CMS detection, robots.txt, subdomains, etc.).
 **Install & run**
 ```bash
 git clone https://github.com/Tuhinshubhra/RED_HAWK.git
