@@ -10,6 +10,12 @@ Reconnaissance (Recon) is the first phase of ethical hacking and penetration tes
 
 ---
 
+**Prerequisite — Install core tools (run once before starting)**  
+Run this to make sure core reconnaissance tools are available on your Kali VM:
+```bash
+sudo apt update && sudo apt install -y whois dnsutils nmap curl jq git
+```
+
 ### 01) Ping — Connectivity check
 ```bash
 ping -c 4 scanme.nmap.org
