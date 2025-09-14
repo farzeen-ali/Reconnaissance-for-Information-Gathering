@@ -1,6 +1,6 @@
 # 🔎 Reconnaissance Cheatsheet — Beginner Friendly (Kali Linux)
 
-**Introduction**  
+## **Introduction**  
 Reconnaissance (Recon) is the first phase of ethical hacking and penetration testing. It means collecting information about a target (domains, IPs, subdomains, services, people, and technologies) to build a clear picture of the attack surface. Recon can be **passive** (OSINT) or **active** (light probes / scans) — always get permission before running active tests.
 
 ---
@@ -10,7 +10,7 @@ Reconnaissance (Recon) is the first phase of ethical hacking and penetration tes
 
 ---
 
-**Prerequisite — Install core tools (run once before starting)**  
+## **Prerequisite — Install core tools (run once before starting)**  
 Run this to make sure core reconnaissance tools are available on your Kali VM:
 ```bash
 sudo apt update && sudo apt install -y whois dnsutils nmap curl jq git
